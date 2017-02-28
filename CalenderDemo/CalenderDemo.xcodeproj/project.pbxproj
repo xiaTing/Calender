@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8495A7951E651F1A00B5ECCE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495A7941E651F1A00B5ECCE /* main.m */; };
+		8495A7981E651F1A00B5ECCE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495A7971E651F1A00B5ECCE /* AppDelegate.m */; };
+		8495A79B1E651F1A00B5ECCE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495A79A1E651F1A00B5ECCE /* ViewController.m */; };
+		8495A79E1E651F1A00B5ECCE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8495A79C1E651F1A00B5ECCE /* Main.storyboard */; };
+		8495A7A01E651F1A00B5ECCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8495A79F1E651F1A00B5ECCE /* Assets.xcassets */; };
+		8495A7A31E651F1A00B5ECCE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8495A7A11E651F1A00B5ECCE /* LaunchScreen.storyboard */; };
+		8495A7B61E651F5A00B5ECCE /* time_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 8495A7AB1E651F5A00B5ECCE /* time_bg.png */; };
+		8495A7B71E651F5A00B5ECCE /* YYCalenderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495A7AD1E651F5A00B5ECCE /* YYCalenderCell.m */; };
+		8495A7B81E651F5A00B5ECCE /* YYCalenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495A7AF1E651F5A00B5ECCE /* YYCalenderViewController.m */; };
+		8495A7B91E651F5A00B5ECCE /* YYDateCalculate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495A7B11E651F5A00B5ECCE /* YYDateCalculate.m */; };
+		8495A7BA1E651F5A00B5ECCE /* YYDateObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495A7B31E651F5A00B5ECCE /* YYDateObject.m */; };
+		8495A7BB1E651F5A00B5ECCE /* YYDayCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495A7B51E651F5A00B5ECCE /* YYDayCell.m */; };
+		8495A7C11E651FF300B5ECCE /* YYDNaview.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495A7BE1E651FF300B5ECCE /* YYDNaview.m */; };
+		8495A7C21E651FF300B5ECCE /* YYNavView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8495A7C01E651FF300B5ECCE /* YYNavView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8495A7901E651F1A00B5ECCE /* CalenderDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalenderDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8495A7941E651F1A00B5ECCE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8495A7961E651F1A00B5ECCE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8495A7971E651F1A00B5ECCE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8495A7991E651F1A00B5ECCE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8495A79A1E651F1A00B5ECCE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8495A79D1E651F1A00B5ECCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8495A79F1E651F1A00B5ECCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8495A7A21E651F1A00B5ECCE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8495A7A41E651F1A00B5ECCE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8495A7AB1E651F5A00B5ECCE /* time_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = time_bg.png; sourceTree = "<group>"; };
+		8495A7AC1E651F5A00B5ECCE /* YYCalenderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCalenderCell.h; sourceTree = "<group>"; };
+		8495A7AD1E651F5A00B5ECCE /* YYCalenderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCalenderCell.m; sourceTree = "<group>"; };
+		8495A7AE1E651F5A00B5ECCE /* YYCalenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCalenderViewController.h; sourceTree = "<group>"; };
+		8495A7AF1E651F5A00B5ECCE /* YYCalenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYCalenderViewController.m; sourceTree = "<group>"; };
+		8495A7B01E651F5A00B5ECCE /* YYDateCalculate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYDateCalculate.h; sourceTree = "<group>"; };
+		8495A7B11E651F5A00B5ECCE /* YYDateCalculate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYDateCalculate.m; sourceTree = "<group>"; };
+		8495A7B21E651F5A00B5ECCE /* YYDateObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYDateObject.h; sourceTree = "<group>"; };
+		8495A7B31E651F5A00B5ECCE /* YYDateObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYDateObject.m; sourceTree = "<group>"; };
+		8495A7B41E651F5A00B5ECCE /* YYDayCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYDayCell.h; sourceTree = "<group>"; };
+		8495A7B51E651F5A00B5ECCE /* YYDayCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYDayCell.m; sourceTree = "<group>"; };
+		8495A7BD1E651FF300B5ECCE /* YYDNaview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYDNaview.h; sourceTree = "<group>"; };
+		8495A7BE1E651FF300B5ECCE /* YYDNaview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYDNaview.m; sourceTree = "<group>"; };
+		8495A7BF1E651FF300B5ECCE /* YYNavView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYNavView.h; sourceTree = "<group>"; };
+		8495A7C01E651FF300B5ECCE /* YYNavView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYNavView.m; sourceTree = "<group>"; };
+		8495A7C31E65203000B5ECCE /* MyPrefixFile.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPrefixFile.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8495A78D1E651F1A00B5ECCE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8495A7871E651F1A00B5ECCE = {
+			isa = PBXGroup;
+			children = (
+				8495A7C31E65203000B5ECCE /* MyPrefixFile.pch */,
+				8495A7BC1E651FF300B5ECCE /* YYNavView */,
+				8495A7AA1E651F5A00B5ECCE /* YYCalender */,
+				8495A7921E651F1A00B5ECCE /* CalenderDemo */,
+				8495A7911E651F1A00B5ECCE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8495A7911E651F1A00B5ECCE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8495A7901E651F1A00B5ECCE /* CalenderDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8495A7921E651F1A00B5ECCE /* CalenderDemo */ = {
+			isa = PBXGroup;
+			children = (
+				8495A7961E651F1A00B5ECCE /* AppDelegate.h */,
+				8495A7971E651F1A00B5ECCE /* AppDelegate.m */,
+				8495A7991E651F1A00B5ECCE /* ViewController.h */,
+				8495A79A1E651F1A00B5ECCE /* ViewController.m */,
+				8495A79C1E651F1A00B5ECCE /* Main.storyboard */,
+				8495A79F1E651F1A00B5ECCE /* Assets.xcassets */,
+				8495A7A11E651F1A00B5ECCE /* LaunchScreen.storyboard */,
+				8495A7A41E651F1A00B5ECCE /* Info.plist */,
+				8495A7931E651F1A00B5ECCE /* Supporting Files */,
+			);
+			path = CalenderDemo;
+			sourceTree = "<group>";
+		};
+		8495A7931E651F1A00B5ECCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8495A7941E651F1A00B5ECCE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8495A7AA1E651F5A00B5ECCE /* YYCalender */ = {
+			isa = PBXGroup;
+			children = (
+				8495A7AB1E651F5A00B5ECCE /* time_bg.png */,
+				8495A7AC1E651F5A00B5ECCE /* YYCalenderCell.h */,
+				8495A7AD1E651F5A00B5ECCE /* YYCalenderCell.m */,
+				8495A7AE1E651F5A00B5ECCE /* YYCalenderViewController.h */,
+				8495A7AF1E651F5A00B5ECCE /* YYCalenderViewController.m */,
+				8495A7B01E651F5A00B5ECCE /* YYDateCalculate.h */,
+				8495A7B11E651F5A00B5ECCE /* YYDateCalculate.m */,
+				8495A7B21E651F5A00B5ECCE /* YYDateObject.h */,
+				8495A7B31E651F5A00B5ECCE /* YYDateObject.m */,
+				8495A7B41E651F5A00B5ECCE /* YYDayCell.h */,
+				8495A7B51E651F5A00B5ECCE /* YYDayCell.m */,
+			);
+			path = YYCalender;
+			sourceTree = "<group>";
+		};
+		8495A7BC1E651FF300B5ECCE /* YYNavView */ = {
+			isa = PBXGroup;
+			children = (
+				8495A7BD1E651FF300B5ECCE /* YYDNaview.h */,
+				8495A7BE1E651FF300B5ECCE /* YYDNaview.m */,
+				8495A7BF1E651FF300B5ECCE /* YYNavView.h */,
+				8495A7C01E651FF300B5ECCE /* YYNavView.m */,
+			);
+			path = YYNavView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8495A78F1E651F1A00B5ECCE /* CalenderDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8495A7A71E651F1A00B5ECCE /* Build configuration list for PBXNativeTarget "CalenderDemo" */;
+			buildPhases = (
+				8495A78C1E651F1A00B5ECCE /* Sources */,
+				8495A78D1E651F1A00B5ECCE /* Frameworks */,
+				8495A78E1E651F1A00B5ECCE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CalenderDemo;
+			productName = CalenderDemo;
+			productReference = 8495A7901E651F1A00B5ECCE /* CalenderDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8495A7881E651F1A00B5ECCE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "夏婷";
+				TargetAttributes = {
+					8495A78F1E651F1A00B5ECCE = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = CZAWGP2662;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8495A78B1E651F1A00B5ECCE /* Build configuration list for PBXProject "CalenderDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8495A7871E651F1A00B5ECCE;
+			productRefGroup = 8495A7911E651F1A00B5ECCE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8495A78F1E651F1A00B5ECCE /* CalenderDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8495A78E1E651F1A00B5ECCE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8495A7A31E651F1A00B5ECCE /* LaunchScreen.storyboard in Resources */,
+				8495A7B61E651F5A00B5ECCE /* time_bg.png in Resources */,
+				8495A7A01E651F1A00B5ECCE /* Assets.xcassets in Resources */,
+				8495A79E1E651F1A00B5ECCE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8495A78C1E651F1A00B5ECCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8495A79B1E651F1A00B5ECCE /* ViewController.m in Sources */,
+				8495A7C11E651FF300B5ECCE /* YYDNaview.m in Sources */,
+				8495A7981E651F1A00B5ECCE /* AppDelegate.m in Sources */,
+				8495A7951E651F1A00B5ECCE /* main.m in Sources */,
+				8495A7B81E651F5A00B5ECCE /* YYCalenderViewController.m in Sources */,
+				8495A7B91E651F5A00B5ECCE /* YYDateCalculate.m in Sources */,
+				8495A7B71E651F5A00B5ECCE /* YYCalenderCell.m in Sources */,
+				8495A7BB1E651F5A00B5ECCE /* YYDayCell.m in Sources */,
+				8495A7C21E651FF300B5ECCE /* YYNavView.m in Sources */,
+				8495A7BA1E651F5A00B5ECCE /* YYDateObject.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8495A79C1E651F1A00B5ECCE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8495A79D1E651F1A00B5ECCE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8495A7A11E651F1A00B5ECCE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8495A7A21E651F1A00B5ECCE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8495A7A51E651F1A00B5ECCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "${SRCROOT}/MyPrefixFile.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8495A7A61E651F1A00B5ECCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/MyPrefixFile.pch";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8495A7A81E651F1A00B5ECCE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CZAWGP2662;
+				INFOPLIST_FILE = CalenderDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.QF.CalenderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8495A7A91E651F1A00B5ECCE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CZAWGP2662;
+				INFOPLIST_FILE = CalenderDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.QF.CalenderDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8495A78B1E651F1A00B5ECCE /* Build configuration list for PBXProject "CalenderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8495A7A51E651F1A00B5ECCE /* Debug */,
+				8495A7A61E651F1A00B5ECCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8495A7A71E651F1A00B5ECCE /* Build configuration list for PBXNativeTarget "CalenderDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8495A7A81E651F1A00B5ECCE /* Debug */,
+				8495A7A91E651F1A00B5ECCE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8495A7881E651F1A00B5ECCE /* Project object */;
+}

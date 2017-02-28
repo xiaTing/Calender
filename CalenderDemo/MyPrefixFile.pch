@@ -1,0 +1,16 @@
+//
+//  MyPrefixFile.pch
+//  CalenderDemo
+//
+//  Created by 夏婷 on 2017/2/28.
+//  Copyright © 2017年 夏婷. All rights reserved.
+//
+
+#ifndef MyPrefixFile_pch
+#define MyPrefixFile_pch
+
+#define ViewBackgroundColor [UIColor colorWithRed:239/255.0f green:239/255.0f blue:244/255.0f alpha:1]//整体View背景色
+
+#define SCREEN_SIZE [UIScreen mainScreen].bounds.size
+
+#endif /* MyPrefixFile_pch */
